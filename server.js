@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 app.use(cors());
 
 // PORT
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8010;
 const server = app.listen(port, () => {
   console.log('Connected to port ' + port)
 })
