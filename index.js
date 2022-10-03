@@ -4,7 +4,7 @@ let bodyParser = require('body-parser');
 let createError = require('http-errors');
 
 const db = require('./database/connection');
-const studentRoute = require('../backend/routes/student.route')
+const studentRoute = require('./routes/student.route')
 
 // Connecting mongoDB Database
 db.connection(); 
